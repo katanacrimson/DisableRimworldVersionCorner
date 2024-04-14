@@ -21,7 +21,7 @@ build:
   extends: '.build'
   parallel:
     matrix:
-    - RW_VERSION: ['1.4']
+    - RW_VERSION: ['1.4', '1.5']
 
 package:
   stage: 'package'
